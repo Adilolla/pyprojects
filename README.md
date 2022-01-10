@@ -93,5 +93,89 @@ To github.com:Adilolla/pyprojects.git
    d897d24..b9d97b2  main -> main
 
 C:\adicode\python\pyprojects>
+ 
+ C:\adicode\python\pyprojects>git pull
+Warning: Permanently added the ECDSA host key for IP address '140.82.113.3' to the list of known hosts.
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:Adilolla/pyprojects
+   b9d97b2..31d2791  main       -> origin/main
+Updating b9d97b2..31d2791
+Fast-forward
+ README.md | 94 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 94 insertions(+)
+
+C:\adicode\python\pyprojects>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\adicode\python\pyprojects>git branch "develop"
+
+C:\adicode\python\pyprojects>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\adicode\python\pyprojects>git push develop
+fatal: 'develop' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\adicode\python\pyprojects>git branch
+  develop
+* main
+
+C:\adicode\python\pyprojects>git push -u origin develop
+Warning: Permanently added the ECDSA host key for IP address '140.82.112.4' to the list of known hosts.
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/Adilolla/pyprojects/pull/new/develop
+remote:
+To github.com:Adilolla/pyprojects.git
+ * [new branch]      develop -> develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+
+C:\adicode\python\pyprojects>git staatus
+git: 'staatus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+C:\adicode\python\pyprojects>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\adicode\python\pyprojects>git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+C:\adicode\python\pyprojects>git pull
+Warning: Permanently added the ECDSA host key for IP address '140.82.112.3' to the list of known hosts.
+Already up to date.
+
+C:\adicode\python\pyprojects>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
