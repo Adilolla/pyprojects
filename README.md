@@ -3,6 +3,35 @@
 #All of thee projects are python projects.
 
 ### Steps to check in code and check out code
+#ADDing public Key
+vamsilol@Lavanya MINGW64 /
+$ ssh-keygen -t rsa -b 4096 -C "adityavlolla@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/vamsilol/.ssh/id_rsa):
+/c/Users/vamsilol/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/vamsilol/.ssh/id_rsa.
+Your public key has been saved in /c/Users/vamsilol/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:BtgbdBcHy1XB+uUHSPHm379kWWCmC7wSdJQxewSE4r8 adityavlolla@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|      . .oX*=+o. |
+|     +...+.B...  |
+|    ..+.. =..o*  |
+|      .= o .o*...|
+|      ..S o ...+.|
+|       ... o ...*|
+|        ... .  ++|
+|        E.    o .|
+|               .o|
++----[SHA256]-----+
+
+vamsilol@Lavanya MINGW64 /
+$
+
 
 
 C:\adicode\python>git clone git@github.com:Adilolla/pyprojects.git
