@@ -40,4 +40,34 @@ if "Aditya" not in txt:
     print("No, Aditya is  not present")
 
 
-#
+#get type
+x= 5
+y= "John"
+print(type(x))
+print(type(y))
+#CHAPTER 5
+
+x,y,z = "orange","banana","Cherry"
+
+print(x)
+print(y)
+print(z)
+
+
+x=y=z = "orange"
+print(x)
+print(y)
+print(z)
+
+##list unpacking
+fruits = ["apple","banana","cherry"]
+x,y,z = fruits
+print(x)
+print(y)
+print(z)
+
+
+#chapter 7
+
+x = "awesome"
+print("python is " + x)
